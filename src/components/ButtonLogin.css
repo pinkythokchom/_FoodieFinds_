@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.headlogin{
+    margin-top: 80px;
+    margin-left: 5%;
+    height: 440px; 
+    background-color:#f9fbfc;
+    border: 1px solid #888;
+    width: 500px; /* Could be more or less, depending on screen size */
+    box-shadow:4px 4px 10px rgba(0,0,0,.3);
+    border-radius: 24px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffdfa;
+}
+.form{
+    margin:16px;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    padding: 10px;
+}     
+input[type=email], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 10px 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  /* Add a background color when the inputs get focus */
+  input[type=email]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=password]:hover{
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+  }
+  input[type=email]:hover{
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+  }
+  .checkbox{
+    margin-bottom: 15px;
+  }
+
+  .forgot-password{
+    text-align: center;
+  
+  }
+  .login-submit{
+    text-align: center;
+  }
+
+  .login-btn{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(39, 143, 39);
+    color: white;
+    border-radius: 14px;
+    border: none;
+    font-size: large;
+    margin-bottom: 5px;
+    }

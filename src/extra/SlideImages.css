@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Montez&family=Moon+Dance&family=Mr+De+Haviland&family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lavishly+Yours&family=Montez&family=Moon+Dance&family=Mr+De+Haviland&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+.image-wrapper{
+    text-align: center;
+}
+/*.caption1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 5em;
+    height: auto;
+    width: 70px;
+    font-weight: 500;
+}*/
+.caption2 {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    height: auto;
+    width: 600px;
+    font-size: 4em;
+    font-weight: 500;
+    font-family: "Mr De Haviland", cursive;
+  }
+  
+  /* Top left text */
+  .caption3 {
+  position: absolute;
+  top: 27%;
+  left: 5%;
+  height: auto;
+  width: 350px;
+  font-weight:500;
+  font-size: 3.6em;
+  font-family: "Lavishly Yours", cursive;
+  color: rgb(0, 0, 0);
+  }

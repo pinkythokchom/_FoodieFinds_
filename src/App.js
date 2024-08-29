@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "./pages/Navbar";
+import Home from "./pages/Home";
+import Reserve from "./pages/Reserve";
+import Restaurant from "./pages/Restaurant";
+import { Route, Routes } from 'react-router-dom';
+import ButtonLogin from "./components/ButtonLogin";
+import ButtonSignup from "./components/ButtonSignup";
+import Footer from "./pages/Footer";
+import TeriyakiTrails from "./EachRestaurant/TeriyakiTrails";
+import HarvestCafe from './EachRestaurant/HarvestCafe';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+ 
+const App = () => {
+    return (
+        <div>
+            <Navbar />
+            <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/reserve" element={<Reserve/>} />
+            <Route path="/restaurant" element={<Restaurant/>} />
+            <Route path="/ButtonLogin" element={<ButtonLogin/>} />
+            <Route path="/ButtonSignup" element={<ButtonSignup/>} />
+            <Route path="/teriyaki_trails" element={<TeriyakiTrails/>}/>
+            <Route path="/harvestcafe" element={<HarvestCafe/>}/>
 
+            </Routes>
+
+            <Footer/>
+        </div>
+        
+    );
+};
+ 
 export default App;

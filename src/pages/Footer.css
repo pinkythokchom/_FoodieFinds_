@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer{
+    margin: 0px 0px 0px 0px;
+    width: 1270px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-Top: 0px 0px 0px 0px; 
+    background-Color: rgb(109, 109, 109);
+    padding: 50px 80px 80px 80px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.about-us ul{
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+   font-size: small;
+}
+.footer-section p{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.about-us ul li{
+    padding: 8px;
+}
+.about-us ul li a{
+   text-decoration: none;
+   margin-top: 10px;
+   color: rgb(206, 204, 204);
+}
+.services ul{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: small;
+}
+.services ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px;
+}
+.services ul li a{
+    text-decoration: none;
+    color: rgb(206, 204, 204);
+}
+.contact ul{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: small;
+}
+.contact ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 8px;
+     color: rgb(206, 204, 204);
+}
+.contact ul li a{
+    text-decoration: none;
+   
+}
