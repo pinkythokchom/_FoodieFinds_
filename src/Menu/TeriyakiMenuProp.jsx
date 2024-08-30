@@ -15,6 +15,9 @@ import Chicken_Katsu_Curry from '../images/TeriyakiTrailsMenu/Chicken_Katsu_Curr
 import Katsu_Tofu_Curry from '../images/TeriyakiTrailsMenu/Katsu_Tofu_Curry.jpg'
 import Gyodon_Beef from '../images/TeriyakiTrailsMenu/Gyodon_Beef.jpg'
 import Chicken_Onigiri from '../images/TeriyakiTrailsMenu/Chicken_Onigiri.jpg'
+import Negima from '../images/TeriyakiTrailsMenu/Negima.jpg'
+import Torikawa from '../images/TeriyakiTrailsMenu/Torikawa.jpg'
+import Chicken_assorted from '../images/TeriyakiTrailsMenu/Chicken_assorted.jpg'
 
 
 function TeriyakiEachProp(
@@ -194,6 +197,33 @@ function TeriyakiEachProp(
                     img={Chicken_Onigiri}
                     ItemName='Shrimp Onigiri'
                     ItemPrice='₹399'
+                />
+            </div>
+            <br/>
+            <p style={{
+                fontSize:'1.6em',
+                fontWeight:'500',
+                backgroundColor:'lightgray',
+                padding:'10px 10px 10px 10px',
+    
+            }}>Yakitori</p>
+            <div className='menuitem' style={{ display: 'flex', flexWrap: 'wrap', justifyContent:'space-evenly' }}>
+
+                <TeriyakiEachProp 
+                    img={Negima }
+                    ItemName='Negima(Chicken Thighs)'
+                    ItemPrice='₹239'
+                />
+
+                <TeriyakiEachProp
+                    img={Torikawa}
+                    ItemName='Torikawa(Chicken Skin)'
+                    ItemPrice='₹119'
+                />
+                <TeriyakiEachProp
+                    img={Chicken_assorted}
+                    ItemName='Chicken assorted'
+                    ItemPrice='₹249'
                 />
             </div>
             </>

@@ -104,6 +104,7 @@ function GotoTeriyakiMenu(){
                   </tr>
               </table>
             </div>
+            <br/>
         </div>
     </div>
   )
