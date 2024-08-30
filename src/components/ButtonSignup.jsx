@@ -22,7 +22,6 @@ const ButtonSignup = () => {
               </label>
               <input
                 type="password"
-                id="password"
                 placeholder="Enter your password"
               />
             </div>
@@ -33,7 +32,6 @@ const ButtonSignup = () => {
               </label>
               <input
                 type="password"
-                id="password"
                 placeholder="Enter your password"
               />
             </div>

@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .Teriyaki-container{
-    margin: 75px 0px 0px 0px;
+    margin: 71px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.reviews-buttons{
+    display: flex;
+    margin: 30px 30px 30px 30px;
+    width: 430px;
+    justify-content: space-evenly;
+}
+.reviews-buttons button{
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #d8e2dc;
+    transition-duration: 0.3s;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+.reviews-buttons button:hover{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.667);
+}
+.popular-container{
+    padding: 30px 90px 10px 90px;
+    background-color: #f1f1f1;
+    width: 1080px;
+}
+.menu_btn{
+    margin: 20px 0px 20px 40px;
+    height: 50px;
+    width: 190px;
+    font-size: 1.2em;
+    background-color: #000000;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    transition-duration: 0.3s;
+}
+.menu_btn:hover{
+    background-color: #d8e2dc;
+    color: black;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.667);
+    font-weight: 500;
+}
+.Gallery{
+    height: 900px;
+    width: 1080px;
+    padding: 30px 90px 10px 90px;
+    background-color:  #f1f1f1;
+}
+.buttongrid{
+    margin: 20px 0px 20px 40px;
+    height: 50px;
+    width: 190px;
+    font-size: 1.2em;
+    background-color: #000000;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    transition-duration: 0.3s;
+}
+.buttongrid:hover{
+    background-color: #d8e2dc;
+    color: black;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.667);
+    font-weight: 500;
+}
+.Locations-hours{
+   display: flex;
+   gap: 80px;
+   margin-left: 120px;
 }

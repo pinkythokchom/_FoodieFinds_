@@ -10,7 +10,7 @@ import ButtonSignup from "./components/ButtonSignup";
 import Footer from "./pages/Footer";
 import TeriyakiTrails from "./EachRestaurant/TeriyakiTrails";
 import HarvestCafe from './EachRestaurant/HarvestCafe';
-
+import TeriyakiMenu from "./Menu/TeriyakiMenu";
  
 const App = () => {
     return (
@@ -24,6 +24,9 @@ const App = () => {
             <Route path="/ButtonSignup" element={<ButtonSignup/>} />
             <Route path="/teriyaki_trails" element={<TeriyakiTrails/>}/>
             <Route path="/harvestcafe" element={<HarvestCafe/>}/>
+            <Route path="/harvestcafe" element={<HarvestCafe/>}/>
+            <Route path="/teriyakimenu" element={<TeriyakiMenu/>}/>
+            
 
             </Routes>
 

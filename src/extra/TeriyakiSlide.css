@@ -1,0 +1,17 @@
+.Teriyakislide-container{
+    margin: 71px 0px 0px 0px;
+}
+.teriyaki-wrapper{
+    display: flex;
+}
+.teriyaki_logo {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+  }
+  .teriyaki-front{
+    margin-top:30px;
+  }

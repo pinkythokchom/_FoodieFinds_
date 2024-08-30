@@ -6,14 +6,6 @@ import ButtonLogin from "../components/ButtonLogin";
 import ButtonSignup from "../components/ButtonSignup";
 
 const Navbar = () => {
-  //const navigate = useNavigate();
-
-  //function GotoLogin(){
-  //navigate("./ButtonLogin");
-  // }
-  //function GotoSignup(){
-  //navigate("./ButtonSignup");
-  // }
   return (
     <div>
       <nav>

@@ -86,7 +86,7 @@ function GotoHarvest(){
       num='2'
       url={harvest_dp}
       Rating='4.1(1k reviews)'
-      OpeningClosing='Open-7am-10:30am(Breakfast)1pm - 8pm(Lunch)|Tuesday-Sunday'
+      OpeningClosing='Open-7am-10:30am(Breakfast)|1pm - 8pm(Lunch)|Tuesday-Sunday'
       Address=' Ghari Mamang Leikai, Imphal West Manipur 795004'
       DeliveryTakeout='Takeout|DineIn'
       />
